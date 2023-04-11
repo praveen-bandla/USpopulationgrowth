@@ -20,7 +20,7 @@ Moreover, I intend to look at similar data relating to school enrollment, family
 
 ### Contents
 
-1. Gathering data - `County Population.ipynb` : Processing the input text file and turning into a usable dataframe
+1. `County Population.ipynb` : Processing the input text file and turning into a usable dataframe
 2. `popdelta.ipynb` : using the dataframe to create the visual
 
 ----
