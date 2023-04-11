@@ -1,8 +1,9 @@
 # US Population Growth Rate at a County Level (1970-2020)
 
-Population growth in the US over the course of 50 years visualized as a choropleth map for each year stitched into a GIF
+Population growth in the US over the course of 50 years visualized as a choropleth map for each year stitched into a `GIF`
 
 ----
+
 ### Objective
 
 I am working towards building a model that categorizes each county based on its social and economical stability over the course of modern history. Understanding the population trends is the first step in achieving that long-term goal.
@@ -17,6 +18,13 @@ Moreover, I intend to look at similar data relating to school enrollment, family
 
 ----
 
+### Contents
+
+Gathering data - `County Population.ipynb` : Processing the input text file and turning into a usable dataframe
+`popdelta.ipynb` : using the dataframe to create the visual
+
+----
+
 ### Flow of Work
 The data used was available on the [SEER](https://seer.cancer.gov/popdata/download.html) website in the form of a gz file. Once extracted, a text file was obtained that was then converted to a dataframe.\
 The data was then cleaned and grouped to obtain the desired information: population for each year at the county level. Note that the states Alaska, Hawaii, and Puerto Rico were omitted to keep focus on the Contiguous United States (mainland). There are six counties that do not have data, but the data was whole otherwise.\
@@ -24,13 +32,6 @@ A choropleth map was chosen to present the data. I was seeking a contrast color,
 One instance of the graph was plotted to test and work on the design of the visual. After that, a loop was used to plot all 50 graphs to then be stitched together as a GIF with a time period of 1 second each.
 
 All of the work was done on Python, split between Jupyter Notebook and Google Colab.
-
-----
-
-### Contents
-
-Gathering data - County Population.ipynb : Processing the input text file and turning into a usable dataframe
-popdelta.ipynb : using the dataframe to create the visual
 
 ----
 
