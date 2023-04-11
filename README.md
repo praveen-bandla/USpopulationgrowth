@@ -49,7 +49,7 @@ Population: 159
 
 [Source](https://seer.cancer.gov/popdata/popdic.html)
 
-What I ended up using was a Cloud-based IDE, namely Google Colab, where things ran faster. There were also difficulties I encountered while trying to install the GeoPandas library locally (see below)
+What I ended up using was Google Colab with the free standard GPUs, where things ran faster. There were also difficulties I encountered while trying to install the GeoPandas library locally (see below)
 
 ----
 
